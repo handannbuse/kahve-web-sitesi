@@ -1,0 +1,219 @@
+.ayrac{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color:white
+}
+.nav-bg
+{
+    background-color: rgb(0, 49, 0);
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+@media screen and (max-width:990px) {
+    .ayrac{
+        display: none;
+    }
+    
+}
+
+
+.buton-sp{
+    display: block;
+    background-color: rgb(0, 49, 0);
+    color: #fff;
+    padding: 5px 50px ;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.buton-sp::after{
+content: "satın al";
+position: absolute;
+top: 100%;
+left: 0;
+background-color: rgb(7, 134, 7);
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.buton-sp:hover::after{
+    top: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+.yazitipi{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+    
+}
+.yazitipi1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.galeri{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resim-galerisi{
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.resim-galerisi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.g-ikon{
+    width: 100%;
+    height: 100%;
+    background-color: #5b2a02;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+.resim-galerisi:hover .g-ikon{
+    top: 0;
+
+}
+.resim-galerisi:hover img{
+    transform: scale(1.1);
+}
+
+.resim-border{
+    border-style: solid;
+    border-color: #5b2a02;
+}
+.kart{
+    justify-content: center;
+}
+
+.alt-bolum{
+    padding: 10px 0;
+}
+.alt-bilgi{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iletisim-ikon{
+    display: flex;
+    align-items: center;
+    flex-basis: 33px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.iletisim-ikon i{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #5b2a02;
+
+}
+.iletisim-ikon p{
+    font-size: 14px;
+    line-height: 33px;
+    
+}
+.footer{
+    background-color: rgb(0, 49, 0);
+}
+.footer-medya{
+    display: flex;
+    align-items: center;
+    flex-basis: 33px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+
+.footer-medya i{
+    font-size: 25px;
+    margin-bottom:30px ;
+}
+.footer-bolum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-medya i{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+    padding: 0 40px;
+
+}
+.footer-medya:first-child{
+    margin-left: 5px;
+}
+
+.s-ikon{
+    width: 100%;
+    height: 100%;
+}
+
+.blog {
+    width: 450px;
+
+}
+.btn-btnn{
+    display: block;
+    background-color: rgb(0, 49, 0);
+    color: #fff;
+    padding: 5px 50px ;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.btn-btnn:after{
+content:"gönder" ;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: rgb(7, 134, 7);
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-btnn:hover::after{
+    top: 0;
+}
+
+
+
+
+
+
+
+
